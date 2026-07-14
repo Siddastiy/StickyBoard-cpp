@@ -16,7 +16,7 @@
 1. Clone the repository:
 	-  `git clone https://github.com/Siddastiy/StickyBoard-cpp.git`
 2. CD into the newly cloned directory
-	- `cd ./black_hole` 
+	- `cd ./StickyBoard-cpp` 
 3. Install dependencies with Vcpkg
 	- `vcpkg install`
 4. Get the vcpkg cmake toolchain file path
