@@ -362,11 +362,11 @@ StickerWindow createStickerWindow(Sticker* sticker, GLFWwindow* shareWindow) {
 	style.WindowPadding = ImVec2(12, 12);
 
 	ImVec4* colors = style.Colors;
-	colors[ImGuiCol_WindowBg] = ImVec4(1.0f, 0.95f, 0.6f, 1.0f);
+	colors[ImGuiCol_WindowBg] = ImVec4(1.0f, 1.0f, 0.6f, 1.0f);
 	colors[ImGuiCol_Text] = ImVec4(0.1f, 0.1f, 0.1f, 1.0f);
-	colors[ImGuiCol_Button] = ImVec4(0.9f, 0.7f, 0.2f, 1.0f);
-	colors[ImGuiCol_ButtonHovered] = ImVec4(0.95f, 0.75f, 0.3f, 1.0f);
-	style.Colors[ImGuiCol_FrameBg] = ImVec4(1.0f, 0.95f, 0.6f, 1.0f);
+	colors[ImGuiCol_Button] = ImVec4(0.961f, 0.816f, 0.2f, 1.0f);
+	colors[ImGuiCol_ButtonHovered] = ImVec4(0.981f, 0.836f, 0.3f, 1.0f);
+	style.Colors[ImGuiCol_FrameBg] = ImVec4(1.0f, 1.0f, 0.6f, 1.0f);
 
 	glfwMakeContextCurrent(win);
 	ImGui_ImplGlfw_InitForOpenGL(win, true);
