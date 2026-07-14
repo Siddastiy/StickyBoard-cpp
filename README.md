@@ -1,5 +1,5 @@
 # StickyBoard-cpp
-StickyBoard but c++
+[StickyBoard](https://github.com/mooLanka/StickyBoard.git) but c++
 
 ## **Building Requirements:**
 
